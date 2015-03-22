@@ -54,3 +54,19 @@ ul.speakers li {
 .communitySponsors li{
     list-style: none;
 }
+
+
+.split {
+    width: 50%;
+    display:inline-block;
+    height: 300px;
+}
+
+a.buy {
+    top: 2em;
+    position: relative;
+    margin: 1em 2em;
+    padding: 1em 2em;
+    
+    background: red;
+}
