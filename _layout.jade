@@ -1,0 +1,24 @@
+doctype
+html
+  head
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', type='text/css', href='style.css', media='screen')
+    title= title
+    section
+        h1 Enhance Conf
+        nav
+          a(href='./') Home
+          &nbsp;
+          a(href='./sponsors.html') Sponsor
+          &nbsp;
+          a(href='./schedule.html') Schedule
+          &nbsp;
+          a(href='./venue.html') Venue
+          &nbsp;
+          a(href='./tickets.html') Tickets
+          &nbsp;
+          a(href='./contact.html') Contact
+          &nbsp;
+          //a(href='./speaker/bob.html') Speaker
+        .content
+            != yield

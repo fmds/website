@@ -1,0 +1,15 @@
+{
+    "globals": {
+        "title": "EnhanceConf",
+        "heading": "",
+        "allSpeakers": {
+            "philhawksworth": {
+                "name": "Phil Hawksworth",
+                "twitter": "philhawksworth",
+                "github": "philhawksworth",
+                "image": "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/t31.0-8/10930800_10153025591348658_1023356538181620342_o.jpg",
+                "title": "A Dogs life"
+            }
+        }
+    }
+}

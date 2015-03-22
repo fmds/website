@@ -1,0 +1,15 @@
+h2 Schedule
+
+strong Enhance Conf is a single day, single track event. 
+
+br
+
+p We will be announcing new speakers in the coming weeks and months.
+
+ul.speakers
+    for item in schedule
+        li
+            != partial("_speaker", item)
+
+
+p Got someone who needs to be on the list? Get in <a href="./contact.html">contact</a>.
