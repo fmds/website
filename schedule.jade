@@ -9,7 +9,24 @@ p We will be announcing new speakers in the coming weeks and months.
 ul.speakers
     for item in schedule
         li
-            != partial("_speaker", item)
+            .speaker(class=item.type)
+                .title= item.time + ' - '
+                    strong=item.title
+                if item.speakers
+                    each speak in item.speakers
+
+
+                        - var speaker = allSpeakers[speak];
+                        if speaker
+                        a.twitter(href='https://twitter.com/' + speaker.twitter)=twitter
+                            img(src=speaker.image, height='100px')
+                        //- a.github(href='https://github.com/' + speaker.github)=speaker.github
+                        //-     img(src=speaker.image, height='100px')
+                        .name=speaker.name
+                        - var twitter = '@' + speaker.twitter
+
+                
+            //!= partial("_speaker", item)
 
 
 p Got someone who needs to be on the list? Get in <a href="./contact.html">contact</a>.

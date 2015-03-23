@@ -17,6 +17,10 @@ nav a {
     background: #fff;
 }
 
+table {
+    border-spacing: 1px 0;
+}
+
 th {
     font-weight: bold;
 }
@@ -28,10 +32,6 @@ td {
     margin: 1em;
     padding: 1em;
 }
-table {
-    border-spacing: 1px 0;
-
-}
 
 ul.speakers li {
     list-style: none;
@@ -42,9 +42,15 @@ ul.speakers li {
     border-bottom: 1px solid #eee;
 }
 
+.speaker .description {
+    padding: 1em;
+    font-size: .8em;
+}
+
 .speaker.break {
     background: #eee;
 }
+
 .speaker img{
     width: 50px;
     height: 50px;
@@ -54,7 +60,6 @@ ul.speakers li {
 .communitySponsors li{
     list-style: none;
 }
-
 
 .split {
     width: 50%;
@@ -68,6 +73,5 @@ a.buy {
     position: relative;
     margin: 1em 2em;
     padding: 1em 2em;
-    
     background: red;
 }

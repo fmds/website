@@ -3,12 +3,28 @@
         "title": "EnhanceConf",
         "heading": "",
         "allSpeakers": {
+
+            "bruised_blood": {
+                "name": "Stephen Waller",
+                "twitter": "bruised_blood",
+                "image": "https://pbs.twimg.com/profile_images/529690841195900928/1llwWlUU_400x400.jpeg"
+            },
+            "harry": {
+                "name": "Harry Beagle",
+                "twitter": "harrybeagle",
+                "image": "data:image/jpeg;base64,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"
+            },
+            "jeremykeith": {
+                "name": "Jeremy Keith",
+                "twitter": "adactio",
+                "github": "adactio",
+                "image": "https://avatars0.githubusercontent.com/u/18826?v=3&s=460"
+            },
             "philhawksworth": {
                 "name": "Phil Hawksworth",
                 "twitter": "philhawksworth",
                 "github": "philhawksworth",
-                "image": "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/t31.0-8/10930800_10153025591348658_1023356538181620342_o.jpg",
-                "title": "A Dogs life"
+                "image": "https://avatars3.githubusercontent.com/u/5865?v=3&s=460"
             }
         }
     }
