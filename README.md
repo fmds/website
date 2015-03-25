@@ -10,7 +10,8 @@ If you see any .nw classes thats just to remind me that the wording needs work.
 
 Ive added some links at the bottom of this file to some nice conference sites but feel free to ignore those if you have better ideas.
 
-Any questions give me a shout.
+
+Any questions give me a shout. Happy to buy graphics and fonts where needed.
 
 Thanks very much. 
 

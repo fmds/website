@@ -2,8 +2,32 @@
 h1, nav, .content {
     font-family: 'Open Sans', sans-serif;
     margin: 2em 20% 2em;
+
 }
+
+h1 {
+    font-size: 5em;
+    margin: 0 20% ;
+}
+
+h1 a {
+  color: #aaa;
+}
+
+a {
+    text-decoration:none;
+}
+
+h1{
+    font-family: 'True North Inline';
+}
+
+
+
+
 h2 {
+    font-family: 'True North';
+    font-size: 2em;
     margin-top: 3em;
     margin-bottom: 1em;
 }

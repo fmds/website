@@ -26,3 +26,15 @@ html
           //a(href='./speaker/bob.html') Speaker
         .content
             != yield
+
+script(type='text/javascript').
+    (function() {
+      var path = '//easy.myfonts.net/v2/js?sid=260294(font-family=True+North+Inline)&sid=260302(font-family=True+North)&key=1hCf5FGEje',
+      protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+      trial = document.createElement('script');
+      trial.type = 'text/javascript';
+      trial.async = true;
+      trial.src = protocol + path;
+      var head = document.getElementsByTagName("head")[0];
+      head.appendChild(trial);
+      })();
