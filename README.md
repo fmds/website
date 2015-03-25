@@ -2,7 +2,7 @@ Hey Ben,
 
 This is just the basic copy and markup.
 
-You welcome to delete everything in style.css, it was just so I could make it reasonably presentable.
+Your welcome to delete everything in style.css, it was just so I could make it reasonably presentable.
 
 Feel free to change copy if you think it can be improved. 
 
@@ -41,7 +41,7 @@ In your browser open:
     127.0.0.1:9000
 
 
-# Nice Confernce sites
+# Nice Conf sites
 
 http://www.leaderstheconf.com/
 
