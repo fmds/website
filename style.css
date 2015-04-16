@@ -1,120 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
 
+    -webkit-font-smoothing: antialiased;
 
-
-
-@font-face {
-  font-family: 'cal';
-  src: local('Calendas_Plus'), url('/public/fonts/Calendas_Plus.otf') format('opentype');
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
 
 body {
-  font-family: 'Open Sans', sans-serif;
+    background: #231f20;
+    color: #fff;
+
+    font: 17px/26px Helvetica Neue, sans-serif;
+    text-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
-h1, h2, h3, h4 {
-  font-family: 'cal';
-}
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
 
+    background: #7230ec;
+    color: #fff;
 
-
-h1, nav, .content, .date, .location {
-
-    margin: 2em 20% 2em;
-
-}
-
-h1 {
-    font-size: 5em;
-    margin: 10% 20% ;
-
-}
-
-h1 a {
-  color: #aaa;
-}
-
-a {
-    text-decoration:none;
-}
-
-
-
-
-h2 {
-    font-size: 2em;
-    margin-top: 3em;
-    margin-bottom: 1em;
-}
-
-nav a {
-    padding-right: 1em;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.content {
-    background: #fff;
-}
+h1 {
+    padding-bottom: 20px;
 
-table {
-    border-spacing: 1px 0;
-}
-
-th {
+    font-size: 48px;
+    line-height: 60px;
     font-weight: bold;
 }
 
-td {
-    width: 3010px;
-    text-align: center;
-    background: #eee;
-    margin: 1em;
-    padding: 1em;
+h2 {
+    padding-bottom: 40px;
+
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
 }
 
-ul.speakers li {
-    list-style: none;
+q {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    line-height: 64px;
+    opacity: .4;
 }
 
-.speaker {
-    padding: 1em;
-    border-bottom: 1px solid #eee;
+i {
+    padding-right: 4px;
+
+    font-family: "Adobe Caslon Pro", Garamond, Baskerville, Georgia, serif;
+    font-size: 110%;
 }
 
-.speaker .description {
-    padding: 1em;
-    font-size: .8em;
+.content {
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
+    z-index: 2;
+
+    width: 600px;
 }
 
-.speaker.break {
-    background: #eee;
-}
+iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
 
-.speaker img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
+    width: 100%;
+    height: 100%;
 
-.communitySponsors li{
-    list-style: none;
-}
-
-.split {
-    width: 50%;
-    display:inline-block;
-    height: 300px;
-    vertical-align: top;
-}
-
-a.buy {
-    top: 2em;
-    position: relative;
-    margin: 1em 2em;
-    padding: 1em 2em;
-    background: red;
-}
-
-.nw {
- color: #888;
+    pointer-events: none;
 }

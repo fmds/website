@@ -1,7 +1,15 @@
-h2 A conference dedicated to Progressive Enhancement.
-
-
-q The state of the art.
-
-
-.location London
+doctype
+html
+  head
+    meta(charset='utf8')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', type='text/css', href='style.css', media='screen')
+    title= title
+  body
+    .content
+      h1 EnhanceConf
+      h2 A conference dedicated to <i>real</i> Progressive Enhancement. Coming to London soon.
+      q The state of the art.
+      a.btn(href='http://google.com') Register your interest
+    
+    iframe(class='csi', src='//youtube.com/embed/Vxq9yj2pVWk?autoplay=1&controls=0&modestbranding=1&autohide=1&showinfo=0&iv_load_policy=3', frameborder='0')
