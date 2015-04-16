@@ -1,13 +1,33 @@
 
-h1, nav, .content, .date {
-    font-family: 'Open Sans', sans-serif;
+
+
+
+@font-face {
+  font-family: 'cal';
+  src: local('Calendas_Plus'), url('/public/fonts/Calendas_Plus.otf') format('opentype');
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'cal';
+}
+
+
+
+h1, nav, .content, .date, .location {
+
     margin: 2em 20% 2em;
 
 }
 
 h1 {
     font-size: 5em;
-    margin: 0 20% ;
+    margin: 10% 20% ;
+
 }
 
 h1 a {
