@@ -1,5 +1,7 @@
 {
+    "basicAuth": "enhanceconf:bogdan",
     "globals": {
+
         "title": "EnhanceConf",
         "heading": "",
         "allSpeakers": {
