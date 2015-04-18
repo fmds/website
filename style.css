@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'cal';
+  src: local('Calendas_Plus'), url('/public/fonts/Calendas_Plus.otf') format('opentype');
+}
+
+
+@font-face {
+  font-family: 'jungle';
+  src: local('Urban_Jungle'), url('/public/fonts/UrbanJungleDEMO.otf') format('opentype');
+  font-size: 7em;
+  letter-spacing: .01em;
+
+}
+body {
+    color: #fff;
+    margin: 0 20%;
+    background-color:rgb(49, 64, 87);
+    font-family: cal;
+    background-image: url(/public/texture.png);
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+
+    background: #7230ec;
+    color: #fff;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-family: jungle;
+    padding: 0;
+    font-size: 4em;
+    margin: 2em 0 1.5em;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 40px;
+
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+q {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    line-height: 64px;
+    opacity: .4;
+}
+
+a {
+  color: #fff;
+
+}
+p {
+  margin: 2em 0;
+  font-size: 20px;
+}
+i {
+    padding-right: 4px;
+
+    font-family: "Adobe Caslon Pro", Garamond, Baskerville, Georgia, serif;
+    font-size: 110%;
+}
+
+.details {
+  font-size: 25px;
+}
+
+.content {
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
+    z-index: 2;
+
+    width: 600px;
+}
+
+iframe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+}
+
+
+html body #mc_embed_signup {
+  text-align: center;
+  background-color:rgba(33, 34, 34, 0.3);
+  border: 2px solid #4A5667;;
+}
