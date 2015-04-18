@@ -25,6 +25,7 @@
 body {
     color: #fff;
     margin: 0 20%;
+    background-color: #2222;
     background-color:rgb(49, 64, 87);
     font-family: cal;
     background-image: url(/public/texture.png);
@@ -75,8 +76,10 @@ a {
 }
 p {
   margin: 2em 0;
-  font-size: 23px;
+  font-size: 28px;
+  line-height: 40px;
 }
+
 
 i {
     padding-right: 4px;
@@ -85,7 +88,7 @@ i {
 }
 
 .details {
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .content {
