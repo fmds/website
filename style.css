@@ -75,18 +75,17 @@ a {
 }
 p {
   margin: 2em 0;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 i {
     padding-right: 4px;
-
     font-family: "Adobe Caslon Pro", Garamond, Baskerville, Georgia, serif;
     font-size: 110%;
 }
 
 .details {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .content {
@@ -117,7 +116,8 @@ form {
 }
 
 form #mce-EMAIL {
-  width: 300px;  
+  width: 250px;
+  border: 1px solid #eee;
 }
 
 form input[type="submit"]#mc-embedded-subscribe {
@@ -135,7 +135,5 @@ form input, form input[type="submit"]#mc-embedded-subscribe {
 
 
 html body #mc_embed_signup {
-  text-align: center;
-  background-color:rgba(33, 34, 34, 0.3);
-  border: 2px solid #4A5667;;
+  width: 390px;
 }
