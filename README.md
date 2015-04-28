@@ -1,10 +1,10 @@
-Hey Ben, 
+Hey Ben,
 
 This is just the basic copy and markup.
 
 Your welcome to delete everything in style.css, it was just so I could make it reasonably presentable.
 
-Feel free to change copy if you think it can be improved. 
+Feel free to change copy if you think it can be improved.
 
 If you see any .nw classes thats just to remind me that the wording needs work.
 
@@ -13,7 +13,7 @@ Ive added some links at the bottom of this file to some nice conference sites bu
 
 Any questions give me a shout. Happy to buy graphics and fonts where needed.
 
-Thanks very much. 
+Thanks very much.
 
 #Requirements:
 

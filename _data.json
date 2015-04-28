@@ -11,28 +11,28 @@
                 "title": "Talk 1 - Context",
                 "type": "talk",
                 "desc":"A brief look into history. Some context.... ",
-                "speakers": ["harry"]
+                "speakers": []
             },
             {
                 "time": "9:50 am",
                 "title": "Talk 2 - Context",
                 "type": "talk",
                 "desc":"A brief look into history. Some context....",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
             {
                 "time": "10:10 am",
                 "title": "Talk 3 - Context",
                 "type": "talk",
                 "desc":"A brief look into history. Some context.... ",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
 
             {
                 "time": "10:30 am",
                 "title": "QA led by Jeremy Keith",
                 "type": "qa",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
 
             {
@@ -45,25 +45,25 @@
                 "time": "11:30 am",
                 "title": "Talk 4 - How",
                 "type": "talk",
-                "speakers": ["philhawksworth"]
+                "speakers": ["ForbesLindesay"]
             },
             {
                 "time": "11:50 am",
                 "title": "Talk 4 - How",
                 "type": "talk",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
             {
                 "time": "12:10 am",
                 "title": "Talk 5 - How",
                 "type": "talk",
-                "speakers": ["philhawksworth"]
+                "speakers": []
             },
             {
                 "time": "12:30 am",
                 "title": "QA led by Jeremy Keith",
                 "type": "qa",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
             {
                 "time": "1pm",
@@ -80,7 +80,7 @@
                 "time": "3:00 pm",
                 "title": "QA led by Jeremy Keith",
                 "type": "qa",
-                "speakers": ["jeremykeith", "philhawksworth", "bruised_blood"]
+                "speakers": ["jeremykeith"]
             },
             {
                 "time": "03:15 pm",
@@ -92,25 +92,25 @@
                 "title": "Talk 7 - Future - Web Components",
                 "type": "talk",
                 "desc": "A talk about web components.",
-                "speakers": ["harry"]
+                "speakers": []
             },
             {
                 "time": "03.50 pm",
                 "title": "talk 8 - Future - Service Workers",
                 "type": "talk",
-                "speakers": ["harry"]
+                "speakers": []
             },
             {
                 "time": "04:10 pm",
                 "title": "QA led by Jeremy Keith",
                 "type": "qa",
-                "speakers": ["jeremykeith"]
+                "speakers": []
             },
             {
                 "time": "04:25 pm",
                 "title": "Closing keynote",
                 "type": "talk",
-                "speakers": ["bruised_blood"]
+                "speakers": []
             },
             {
                 "time": "05:00 pm",
