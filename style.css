@@ -112,3 +112,7 @@ form input, form input[type="submit"]#mc-embedded-subscribe {
 html body #mc_embed_signup {
   width: 390px;
 }
+
+div.detail p{
+    font-size: 20px;
+}
