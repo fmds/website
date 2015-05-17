@@ -8,7 +8,6 @@ p {
   font-size: 25px;
   line-height: 40px;
 
-  color: #F5F0EC;
   margin:2em 0;
 }
 
@@ -34,14 +33,10 @@ body h1
 
 nav {
     padding: 1.2em 20%;
-    background:#5D435F;
+    background:#a95653;
     width: 100%;
     border-top: 1px solid #362E39;
     border-bottom: 1px solid #362E39;
-}
-
-nav, .content {
-    box-shadow: 0px 0px 15px 0px #362E39;
 }
 
 nav a{
@@ -50,15 +45,15 @@ nav a{
     border-radius: 3px;
     color: #fff;
     font-weight: bold;
-    font-family:GistRoughUprRegLine;
+    font-family:'Crimson Text', Rokkitt, 'Vollkorn';
     /*font-family:Aller;*/
 
 }
 
 
 nav a:hover {
-    text-shadow: 1px 1px #222;
-    color: #eee;
+    font-weight: bold;
+    color: #fff;
 }
 nav a.active{
     background-color: transparent;
@@ -69,12 +64,10 @@ p {
 }
 
 body {
-    color: #fff;
+    color: #faf7ef;
 
-    background-color: rgb(39, 30, 42);
+    background-color: #2b2c3f;
 
-    background-image: url(/public/textures/green-fibers.png);
-    background-image: url(/public/little-pluses.png);
 
 }
 
@@ -98,22 +91,29 @@ body {
 h1, h2,h3 {
     font-family: GistRoughLightThree;
 }
+
+h1, h2 {
+    display: inline-block;
+}
+
+
 h1 {
     # GistRoughUprReg-Bold, GistRoughUprExboldLine, GistRoughRegTwo;
     padding-bottom: 20px;
+    color:#faf7ef;
     font-family: cal;
     padding: 0;
     font-size: 3em;
     font-family:GistRoughUprExboldTwo;
-    margin: 2em 0 1.5em;
     font-weight: normal;
 
 }
 h1 .conf {
-    color: rgb(203, 202, 196);
+    color: #BAAAA8;
 }
 h2 {
-    padding-bottom: 40px;
+    color: #75bdb9;
+
 
     font-size: 32px;
     line-height: 40px;
@@ -141,7 +141,6 @@ img {
     margin: 0;
 padding: 1em 20% 4em;
     border-radius: 3px;
-    background: #837386;
     border: 1px solid rgba(59, 51, 62, 1);
     font-family:'Crimson Text',  Rokkitt, 'Vollkorn';
 }
@@ -228,7 +227,7 @@ ul.small p {
 .split {
     border: 1px solid rgb(53, 44, 55);
     border-radius: 4px;
-    background:#D3CCDB;
+    background:#faf7ef;
     margin: 1em;
     height: 10em;
     vertical-align: top;
@@ -237,7 +236,7 @@ ul.small p {
 }
 
 .split p {
-    background: red;
+    background: #75bdb9;
     bottom: 0;
     padding: .5em;
     text-align: center;
