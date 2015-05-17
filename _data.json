@@ -1,7 +1,8 @@
 {
 
     "sponsors": {
-        "title": "EnhanceConf - Sponsorship"
+        "title": "EnhanceConf - Sponsorship",
+        "sponsors":true
     },
     "schedule": {
         "heading": "Schedule",

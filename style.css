@@ -1,5 +1,23 @@
+@import url("/public/fonts/gist/MyFontsWebFontsKit.css");
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative);
 @import url("/public/fonts/calendas/stylesheet.css");
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
 
+
+p {
+  font-size: 25px;
+  line-height: 40px;
+
+  color: #F5F0EC;
+  margin:2em 0;
+}
+
+ul  {
+    margin: 1em;
+}
+ li {
+     margin: .5em 3em;
+}
 
 * {
     margin: 0;
@@ -9,13 +27,54 @@
     box-sizing: border-box;
 }
 
+body h1
+ {
+    margin: 1em 20%;
+}
+
+nav {
+    padding: 1.2em 20%;
+    background:#5D435F;
+    width: 100%;
+    border-top: 1px solid #362E39;
+    border-bottom: 1px solid #362E39;
+}
+
+nav, .content {
+    box-shadow: 0px 0px 15px 0px #362E39;
+}
+
+nav a{
+    padding:.7em .7em .4em;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    font-family:GistRoughUprRegLine;
+    /*font-family:Aller;*/
+
+}
+
+
+nav a:hover {
+    text-shadow: 1px 1px #222;
+    color: #eee;
+}
+nav a.active{
+    background-color: transparent;
+}
+
+
+p {
+}
 
 body {
     color: #fff;
-    margin: 0 20%;
-    background-color: #222222;
-    background-color:rgb(49, 64, 87);
-    background-image: url(/public/texture.png);
+
+    background-color: rgb(39, 30, 42);
+
+    background-image: url(/public/textures/green-fibers.png);
+    background-image: url(/public/little-pluses.png);
 
 }
 
@@ -28,23 +87,38 @@ body {
     text-decoration: none;
 }
 
+.wide {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: rgb(64, 66, 53);
+    width: 100%;
+    margin: 0;
+    padding: 1em 20%;
+}
+h1, h2,h3 {
+    font-family: GistRoughLightThree;
+}
 h1 {
+    # GistRoughUprReg-Bold, GistRoughUprExboldLine, GistRoughRegTwo;
     padding-bottom: 20px;
     font-family: cal;
     padding: 0;
-    font-family: calendas_plusregular;
-    font-size: 4em;
+    font-size: 3em;
+    font-family:GistRoughUprExboldTwo;
     margin: 2em 0 1.5em;
-    line-height: 60px;
-    font-weight: bold;
-}
+    font-weight: normal;
 
+}
+h1 .conf {
+    color: rgb(203, 202, 196);
+}
 h2 {
     padding-bottom: 40px;
 
     font-size: 32px;
     line-height: 40px;
     font-weight: 300;
+    margin: 2em 20% .5em !important;
 }
 
 q {
@@ -57,15 +131,21 @@ q {
 
 a {
   color: #fff;
-
 }
 
-p {
-  margin: 2em 0;
-  font-size: 28px;
-  line-height: 40px;
-  color: #F5F0EC;
+img {
+    border: 1px solid #322A35;
+
 }
+.content {
+    margin: 0;
+padding: 1em 20% 4em;
+    border-radius: 3px;
+    background: #837386;
+    border: 1px solid rgba(59, 51, 62, 1);
+    font-family:'Crimson Text',  Rokkitt, 'Vollkorn';
+}
+
 
 
 i {
@@ -78,13 +158,13 @@ i {
   font-size: 38px;
 }
 
-.content {
+/*.content {
   position: absolute;
   left: 80px;
   bottom: 80px;
   z-index: 2;
   width: 600px;
-}
+}*/
 
 form {
   font-size: 2em;
@@ -109,10 +189,56 @@ form input, form input[type="submit"]#mc-embedded-subscribe {
 
 }
 
-html body #mc_embed_signup {
-  width: 390px;
-}
 
 div.detail p{
+
     font-size: 20px;
+}
+
+
+table {
+    width: 100%;
+    font-size: 2em;
+}
+
+
+th {
+    background: rgba(1,1,1,.1);
+    width: 2000px;
+
+}
+td {
+    width: 20%;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+h2, h3 {
+    margin: 2em;
+}
+
+ul.small p {
+    font-size: 15px;
+    margin: 0px;
+    line-height: 15px;
+}
+
+
+.split {
+    border: 1px solid rgb(53, 44, 55);
+    border-radius: 4px;
+    background:#D3CCDB;
+    margin: 1em;
+    height: 10em;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+}
+
+.split p {
+    background: red;
+    bottom: 0;
+    padding: .5em;
+    text-align: center;
 }
