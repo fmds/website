@@ -1,17 +1,40 @@
 {
 
+    "about": {
+        "title": "About",
+        "pageClass":"about"
+    },
+
+    "venue": {
+        "title": "Venue",
+        "pageClass":"venue"
+    },
+
+    "tickets": {
+        "title": "Tickets",
+        "pageClass":"tickets"
+    },
+
+    "contact": {
+        "title": "Contact",
+        "pageClass":"contact"
+    },
+
+
     "sponsors": {
-        "title": "EnhanceConf - Sponsorship",
-        "sponsors":true
+        "title": "Sponsorship",
+        "pageClass":"sponsors"
     },
     "schedule": {
+        "pageClass":"schedule",
+        "title": "Schedule",
         "heading": "Schedule",
         "schedule": [
             {
                 "time": "9:30 am",
                 "title": "Talk 1 - Context",
                 "type": "talk",
-                "desc":"A brief look into history. Some context.... ",
+                "desc":"A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.... ",
                 "speakers": []
             },
             {

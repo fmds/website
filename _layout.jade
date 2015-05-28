@@ -4,10 +4,13 @@ html
     meta(charset='utf-8')
     link(rel='stylesheet', type='text/css', href='/style.css', media='screen')
     title= title
-  body
+  body(class=pageClass)
     //img(src='/public/ben-logo.png')
-    
-    h1 Enhance<span class="conf">Conf<span>
+    h1.small Enhance<span class="conf">Conf<span> 
+    h1=title    
+        img(src='/public/img/london10.png', width='50px')
+        
+
         
     include _nav.jade
     != yield

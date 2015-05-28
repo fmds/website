@@ -1,34 +1,24 @@
-h2 Schedule
+
 
 .content
-
-    strong Enhance Conf is a single day, single track event.
-
     br
-
-    p We will be announcing new speakers in the coming weeks and months.
-
     ul.speakers
         for item in schedule
-            li
-                .speaker(class=item.type)
-                    .title= item.time + ' - '
-                        strong=item.title
-                    if item.speakers
-                        each speak in item.speakers
-
-
-                            - var speaker = allSpeakers[speak];
-                            if speaker
-                            a.twitter(href='https://twitter.com/' + speaker.twitter)=twitter
-                                img(src=speaker.image, height='100px')
-                            //- a.github(href='https://github.com/' + speaker.github)=speaker.github
-                            //-     img(src=speaker.image, height='100px')
-                            .name=speaker.name
-                            - var twitter = '@' + speaker.twitter
-
-
-                //!= partial("_speaker", item)
+            li.speaker(class=item.type)
+                    //div.time=item.time
+                    img(src='').speaker
+                    .detail
+                        h4.title=item.title
+                        p=item.desc
+                        if item.speakers
+                            each speak in item.speakers
+                                - console.log(speak);
+                                - speaker = allSpeakers[speak]
+                            //- if(speaker)
+                            //-     console.log(speak, allSpeakers) ;
+                            //-     != partial("_speaker", speaker)
 
 
     p Got someone who needs to be on the list? Get in <a href="./contact.html">contact</a>.
+
+    p We will be announcing new speakers in the coming weeks and months.
