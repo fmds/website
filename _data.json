@@ -25,10 +25,10 @@
         "title": "Sponsorship",
         "pageClass":"sponsors"
     },
-    "schedule": {
-        "pageClass":"schedule",
-        "title": "Schedule",
-        "heading": "Schedule",
+    "speakers": {
+        "pageClass":"speakers",
+        "title": "Speakers",
+        "heading": "Speakers",
         "schedule": [
             {
                 "time": "9:30 am",
@@ -142,8 +142,6 @@
                 "type": "party"
             }
         ]
-    },
-    "speakers":  {
-
     }
+
 }

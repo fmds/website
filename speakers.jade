@@ -1,0 +1,32 @@
+.content
+    br
+    ul.speakers
+        li.speaker
+            img(src='').speaker
+            h4 Phil Hawksworth 
+            p Echo Chambers gonna Echo
+            a(href="https://twitter.com/forbeslindesay") @forbeslindesay
+        li.speaker
+            img(src='').speaker
+            h4 Forbes Lindesay
+            p Reacting to Jade
+            a(href="https://twitter.com/philhawksworth") @philhawksworth
+        //- for item in schedule
+        //-     li.speaker(class=item.type)
+        //-             //div.time=item.time
+        //-             img(src='').speaker
+        //-             .detail
+        //-                 h4.title=item.title
+        //-                 p=item.desc
+        //-                 if item.speakers
+        //-                     each speak in item.speakers
+        //-                         - console.log(speak);
+        //-                         - speaker = allSpeakers[speak]
+        //-                     //- if(speaker)
+        //-                     //-     console.log(speak, allSpeakers) ;
+        //-                     //-     != partial("_speaker", speaker)
+
+
+    p Got someone who needs to be on the list? Get in <a href="./contact.html">contact</a>.
+
+    p We will be announcing new speakers in the coming weeks and months.

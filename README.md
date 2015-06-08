@@ -1,33 +1,3 @@
-Hey Ben,
-
-This is just the basic copy and markup.
-
-Your welcome to delete everything in style.css, it was just so I could make it reasonably presentable.
-
-Feel free to change copy if you think it can be improved.
-
-If you see any .nw classes thats just to remind me that the wording needs work.
-
-Ive added some links at the bottom of this file to some nice conference sites but feel free to ignore those if you have better ideas.
-
-
-Any questions give me a shout. Happy to buy graphics and fonts where needed.
-
-Thanks very much.
-
-#Requirements:
-
-Must work with js turned off :)
-
-Google maps doesnt need to.
-
-In the main nav the tickets link should have a way (probably a class) to highlight when tickets are available >>buy now<<
-
-css3 selectors have fallbacks. (or a todo)
-
-We need to take the styles used on this site and use them for the Sponsors pdf. Souldn't be a problem, just mentioning it.
-
-
 #Install
 
     npm install
@@ -38,13 +8,39 @@ We need to take the styles used on this site and use them for the Sponsors pdf. 
 
 In your browser open:
 
-    127.0.0.1:9000
+
+    http://127.0.0.1:9000
 
 
-# Nice Conf sites
+# Styling
 
-http://www.leaderstheconf.com/
+The copy is not final but this should give an idea of the pages and their content:
 
-http://2012.shropgeek-revolution.co.uk/
+pages that need styling:
 
-http://2014.meaningconference.co.uk/
+pages:
+
+http://127.0.0.1:9000
+
+http://127.0.0.1:9000/about
+
+http://127.0.0.1:9000/venue
+
+http://127.0.0.1:9000/speakers
+
+A list of the people we have confirmed to speak at EnhanceConf. Their Pic and a brief desc.
+
+http://127.0.0.1:9000/tickets
+
+http://127.0.0.1:9000/code-of-conduct
+
+http://127.0.0.1:9000/sponsor
+
+At the moment the sponsors page links to three sub pages, they could be brought back into the sponsor page if it fits better with the design.
+
+http://127.0.0.1:9000/sponsorship-opportunities/evening
+http://127.0.0.1:9000/sponsorship-opportunities/lunch
+http://127.0.0.1:9000/sponsorship-opportunities/video
+
+
+Feel free to move bits around, if there is going to be a tickets button in the nav it will need a disabled state.
