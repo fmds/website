@@ -39,7 +39,9 @@ http://127.0.0.1:9000/sponsor
 At the moment the sponsors page links to three sub pages, they could be brought back into the sponsor page if it fits better with the design.
 
 http://127.0.0.1:9000/sponsorship-opportunities/evening
+
 http://127.0.0.1:9000/sponsorship-opportunities/lunch
+
 http://127.0.0.1:9000/sponsorship-opportunities/video
 
 
