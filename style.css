@@ -32,6 +32,18 @@
 
 
 
+<<<<<<< HEAD
+@font-face {font-family: 'KroppenRound-RegularOblique';src: url('/fonts/2E7DBB_0_0.eot');src: url('/fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E7DBB_0_0.woff2') format('woff2'),url('/fonts/2E7DBB_0_0.woff') format('woff'),url('/fonts/2E7DBB_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'KroppenRound-LightOblique';src: url('/fonts/2E7DBB_1_0.eot');src: url('/fonts/2E7DBB_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E7DBB_1_0.woff2') format('woff2'),url('/fonts/2E7DBB_1_0.woff') format('woff'),url('/fonts/2E7DBB_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Kroppen Round';src: url('/fonts/2E7DBB_2_0.eot');src: url('/fonts/2E7DBB_2_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E7DBB_2_0.woff2') format('woff2'),url('/fonts/2E7DBB_2_0.woff') format('woff'),url('/fonts/2E7DBB_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'Kroppen Round Light';src: url('/fonts/2E7DBB_3_0.eot');src: url('/fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('/fonts/2E7DBB_3_0.woff2') format('woff2'),url('/fonts/2E7DBB_3_0.woff') format('woff'),url('/fonts/2E7DBB_3_0.ttf') format('truetype');}
+=======
 @font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
 
 
@@ -42,6 +54,7 @@
 
 
 @font-face {font-family: 'Kroppen Round Light';src: url('./fonts/2E7DBB_3_0.eot');src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_3_0.woff2') format('woff2'),url('./fonts/2E7DBB_3_0.woff') format('woff'),url('./fonts/2E7DBB_3_0.ttf') format('truetype');}
+>>>>>>> design
 
 
 
@@ -55,7 +68,11 @@ margin: 0;
 background: #000;
     margin-top: 7em;
     background-color: #000000;
+<<<<<<< HEAD
+    background-image: url('/images/dark-denim-3.png'),
+=======
     background-image: url('./images/dark-denim-3.png'),
+>>>>>>> design
         linear-gradient(to right, #000, #010101, #000);
 }
 
