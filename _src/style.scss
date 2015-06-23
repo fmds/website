@@ -65,7 +65,10 @@ background: #000;
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
-h1, h2, h3, h4 {
+
+
+h1, h2, h3, h4,
+tr.top th{
     color: rgb(242, 25, 92);
     font-family: 'Kroppen Round';
 }
