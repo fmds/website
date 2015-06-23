@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "harp server --port 9000",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "harp compile  ./src  ./",
   },
   "author": "",
   "license": "ISC",
