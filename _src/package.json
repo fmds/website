@@ -1,12 +1,12 @@
 {
   "name": "enhanceconf",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "harp server --port 9000",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "harp compile  ./src  ./",
+    "build": "harp compile  ./  ../"
   },
   "author": "",
   "license": "ISC",
