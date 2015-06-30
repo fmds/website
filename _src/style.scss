@@ -197,7 +197,7 @@ nav a:hover {
     background-image: url(/images/grid.png);
 
     background-color: #121212;
-    border: 2px solid #121212;
+    border: 1px solid #121212;
     background-position: -40px -38px;
 }
 
@@ -292,11 +292,11 @@ img.speaker {
 
 /** Sponsors page **/
 
-table {
+table.block {
     width: 100%;
     position: relative;
-    left: -3px;
     top: -2px;
+    padding-bottom: 35px;
 
     th {
         text-align: left;
@@ -321,7 +321,17 @@ table {
     tr td:nth-child(3) {
         height: 76px;
         width:156px;
-        background: rgba(0, 0, 0, .3);
+        background: rgba(24, 23, 23, 0.49);
+
+        @media (max-width: 1000px) {
+            width: 76px;
+            font-size: .5em;
+            height: 76px;
+        }
+    }
+
+    tr:last-child {
+        margin-bottom: 10px;
     }
 
 
@@ -471,15 +481,15 @@ nav {
 
 
 .block {
-    padding:13px 40px 26px 40px;
+    padding:15px 40px 28px 40px;
     margin: 5em 0;
     line-height: 40px;
-    background:rgba(121, 121, 121, .3);
-    border: 1px solid rgba(62, 39, 39, 0.20);
+    background: rgba(16, 15, 15, 0.81);
+    border: 0 solid rgba(62, 39, 39, 0.20);
     p {
         margin: 0;
         position: relative;
-        top: -5px;
+        top: 12px;
         padding:0;
     }
 }
@@ -490,10 +500,14 @@ nav {
 .block:first-child {
       margin-top: 0px;
 }
+.block:last-child {
+      margin-bottom: 0px;
+}
+
 
 
 ul.topics {
-    margin:18px 10px 21px 52px;
+    margin:18px 10px 15px 52px;
     li {
         height: 24px;
       padding: 28px 10px;
@@ -508,7 +522,7 @@ ul.topics {
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 1000px) {
     .content {
         max-width: 50em;
     }
