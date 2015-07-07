@@ -1,49 +1,7 @@
-
-
-/**
- * @license
- * MyFonts Webfont Build ID 3046843, 2015-06-22T14:52:34-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: KroppenRound-RegularOblique by Talbot Type
- * URL: http://www.myfonts.com/fonts/talbot/kroppen-round/oblique/
- *
- * Webfont: KroppenRound-LightOblique by Talbot Type
- * URL: http://www.myfonts.com/fonts/talbot/kroppen-round/light-oblique/
- *
- * Webfont: KroppenRound-Regular by Talbot Type
- * URL: http://www.myfonts.com/fonts/talbot/kroppen-round/regular/
- *
- * Webfont: KroppenRound-Light by Talbot Type
- * URL: http://www.myfonts.com/fonts/talbot/kroppen-round/light/
- *
- *
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=3046843
- * Licensed pageviews: 10,000
- * Webfonts copyright:  Copyright (c)2014 Talbot Type. All Rights Reserved
- *
- * © 2015 MyFonts Inc
-*/
-
-
-
 @font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
-
-
 @font-face {font-family: 'KroppenRound-LightOblique';src: url('./fonts/2E7DBB_1_0.eot');src: url('./fonts/2E7DBB_1_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_1_0.woff2') format('woff2'),url('/fonts/2E7DBB_1_0.woff') format('woff'),url('/fonts/2E7DBB_1_0.ttf') format('truetype');}
-
-
 @font-face {font-family: 'Kroppen Round';src: url('./fonts/2E7DBB_2_0.eot');src: url('./fonts/2E7DBB_2_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_2_0.woff2') format('woff2'),url('./fonts/2E7DBB_2_0.woff') format('woff'),url('./fonts/2E7DBB_2_0.ttf') format('truetype');}
-
-
 @font-face {font-family: 'Kroppen Round Light';src: url('./fonts/2E7DBB_3_0.eot');src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_3_0.woff2') format('woff2'),url('./fonts/2E7DBB_3_0.woff') format('woff'),url('./fonts/2E7DBB_3_0.ttf') format('truetype');}
-
-
 
 body {
     color: #fff;
@@ -51,15 +9,14 @@ body {
     letter-spacing: 1.1px;
     line-height: 2.5em;
     margin: 0;
-    background: #000;
-    background-image: url(http://www.transparenttextures.com/patterns/binding-dark.png);
-    // background-image: url(http://www.transparenttextures.com/patterns/brilliant.png);
-    // background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png);
-     font-size: 1em;
+    padding: 0;
+    background: #1A1818;
+    background-image: url('/images/dark-stripes.png');
+    font-size: 1em;
 
-     .wrapper {
+    .wrapper {
          margin: 0;
-         padding: 0 10% 0;
+         padding: 0 20% 5em;
 
          padding-top: 6em;
      }
@@ -70,15 +27,11 @@ body {
          bottom: 0;
          position: relative;
          border-top: 1px solid #000;
-         padding: 2em 10% 10em;
+         padding: 5em 20% 10em;
          margin-top: 10em;
+         margin: 0;
      }
-
 }
-
-
-
-
 
 
 
@@ -86,7 +39,9 @@ body {
 @media (max-width: 900px) {
     body {
         margin:0;
-        padding: 1em;
+        .wrapper {
+            padding: 2em;
+        }
         .footer {
             padding: 2em 2em 10em;
         }
@@ -103,10 +58,23 @@ tr.top th{
 }
 
 nav {
-    width: 100%;
-    padding: 2em;
-    margin: 4em 0;
+    margin: 6em 0;
     font-family: 'Kroppen Round';
+    a {
+        width: 100%;
+        display: block;
+
+        padding:0 1em 0 0;
+        margin: 0 2em 0 0 ;
+        text-decoration: none;
+        border-radius: 3px;
+        &:hover {
+            font-weight: bold;
+        }
+        @media (min-width: 600px) {
+            display: inline;
+        }
+    }
 }
 
 .speakers nav .speakers,
@@ -121,8 +89,8 @@ nav {
 
 
 hr {
-    border: .15em solid #DDA625;
-    border-radius: .15em;
+    border: 1px solid #DDA625;
+    border-radius: 1px;
     margin: 4em;
 }
 
@@ -130,12 +98,6 @@ hr.green {
     border-color: #8BB22B;
 }
 
-nav a{
-    padding:0 1em 0 0;
-    margin: 0 2em 0 0 ;
-    text-decoration: none;
-    border-radius: 3px;
-}
 
 a {
     color: rgb(37, 130, 196);
@@ -176,9 +138,7 @@ container.trains {
     padding: 0;
 }
 
-nav a:hover {
-    font-weight: bold;
-}
+
 
 /* hack to make current nav item selected  - should use .active */
 .about nav a.about,
@@ -189,23 +149,8 @@ nav a:hover {
     cursor: default;
 }
 
-.content {
-    margin: 0;
-    //padding-top: 1px;
-    max-width: 40em;
-
-    background-image: url(/images/grid.png);
-
-    background-color: #121212;
-    border: 1px solid #121212;
-    background-position: -40px -38px;
-}
-
-/* Homepage */
 form {
-
   margin: .2em .2em 4em .2em;
-
   #mce-EMAIL {
     width: 250px;
     border: 1px solid #eee;
@@ -230,31 +175,6 @@ div.detail p{
     font-size: 20px;
 }
 
-/** Speakers **/
-
-ul.speakers {
-    list-style:none;
-    margin: 0;
-    padding: 0;
-    margin-top: 5em;
-    margin-left: 79px;
-    position: relative;
-
-    li {
-        margin:73px 0;
-        padding: 0;
-        p {
-            font-size: .8em;
-        }
-    }
-}
-
-img.speaker {
-    background: rgb(92, 90, 90);
-    width: 77px;
-    height: 77px;
-    vertical-align: top;
-}
 
 .content img,
 .content iframe {
@@ -263,28 +183,52 @@ img.speaker {
     overflow: hidden;
 }
 
-.content iframe > div {
-    border-radius: 4px;
-}
 
+ul.speakers {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5em;
 
-.speaker {
-    h3 {
-        display: inline-block;
-        margin: 0em;
+    position: relative;
+    @media (min-width: 600px) {
+        margin-left: 79px;
     }
-    img  {
-        display: inline-block;
-        margin-top: 1px;
 
-    }
-    .detail {
-        display: inline-block;
-        margin: 0 39px;
+    li {
+        margin:73px 0;
         padding: 0;
-        p {
-           margin: .3em 0;
+
+        .detail {
+            display: block;
+            margin: 20px 0;
+            padding: 0;
+
+            @media (min-width: 600px) {
+                margin: 0 39px;
+                display: inline-block;
+
+            }
+
+            h3 {
+                display: inline-block;
+                margin: 0em;
+            }
+            img  {
+                display: inline-block;
+                margin-top: 1px;
+            }
+            p {
+               margin: .3em 0;
+               font-size: .8em;
+            }
         }
+    }
+    img.speaker {
+        background: rgb(92, 90, 90);
+        width: 77px;
+        height: 77px;
+        vertical-align: top;
     }
 }
 
@@ -333,8 +277,6 @@ table.block {
     tr:last-child {
         margin-bottom: 10px;
     }
-
-
 }
 
 
@@ -342,44 +284,6 @@ table.block {
 
 
 
-
-/* Tickets page */
-.item {
-    border: 1px solid #222;
-    border-radius: 5px;
-    margin: 1em 25%;
-    height: 12em;
-    padding: 0;
-    vertical-align: top;
-    width: 40%;
-    display: inline-block;
-    position: relative;
-    background: rgb(221, 166, 37);
-    border: 2px solid #333;
-
-    p.detail {
-        vertical-align: top;
-    }
-    p.buy {
-        position: absolute;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-        bottom: 0;
-        padding: .6em 0;
-        margin: 0;
-        background: #eee;
-        width: 100%;
-        text-align: center;
-    }
-    .price {
-        font-size:4em;
-        font-weight: bold;
-        margin: 1em 0 0 0;
-        padding: 0;
-        text-align:center;
-    }
-
-}
 
 
 hr.page-break {
@@ -391,6 +295,12 @@ hr.page-break {
 .split {
     display: inline;
     margin: 0 10%;
+}
+
+
+.logo {
+    width: 100%;
+    max-width: 650px;
 }
 .logo, .london {
 }
@@ -445,8 +355,7 @@ hr.page-break {
 
     div.right {
         text-align: justify;
-        font-size: .9em;
-          line-height: 1.6em;
+
           p {
               margin: 1em;
           }
@@ -455,8 +364,10 @@ hr.page-break {
 .smm-pic {
     float: left;
 margin: 0 20px 20px 0;
-width: 150px;
-height: 150px;
+width: 110px;
+height: 110px;
+position: relative;
+top: 10px;
 }
 
 
@@ -467,25 +378,14 @@ height: 150px;
 
 
     }
-
-
 }
 
-
-
-
-nav {
-    top: -10px;
-    position: relative;
-}
 
 
 .block {
-    padding:15px 40px 28px 40px;
+    padding:0px 40px 28px 0px;
     margin: 5em 0;
     line-height: 40px;
-    background: rgba(16, 15, 15, 0.81);
-    border: 0 solid rgba(62, 39, 39, 0.20);
     p {
         margin: 0;
         position: relative;
@@ -505,9 +405,8 @@ nav {
 }
 
 
-
 ul.topics {
-    margin:18px 10px 15px 52px;
+    margin:3em 10px 15px 52px;
     li {
         height: 24px;
       padding: 28px 10px;
@@ -576,3 +475,49 @@ div.flex .container.trains {
     flex: 2;
     min-width: 400px;
 }
+
+
+div.quote {
+    margin: 3em 0em;
+    padding: 1em;
+    background: rgba(0, 0, 0, .1);
+}
+
+//
+// /* Tickets page */
+// .item {
+//     border: 1px solid #222;
+//     border-radius: 5px;
+//     margin: 1em 25%;
+//     height: 12em;
+//     padding: 0;
+//     vertical-align: top;
+//     width: 40%;
+//     display: inline-block;
+//     position: relative;
+//     background: rgb(221, 166, 37);
+//     border: 2px solid #333;
+//
+//     p.detail {
+//         vertical-align: top;
+//     }
+//     p.buy {
+//         position: absolute;
+//         border-bottom-left-radius: 5px;
+//         border-bottom-right-radius: 5px;
+//         bottom: 0;
+//         padding: .6em 0;
+//         margin: 0;
+//         background: #eee;
+//         width: 100%;
+//         text-align: center;
+//     }
+//     .price {
+//         font-size:4em;
+//         font-weight: bold;
+//         margin: 1em 0 0 0;
+//         padding: 0;
+//         text-align:center;
+//     }
+//
+// }
