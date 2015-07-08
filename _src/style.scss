@@ -17,9 +17,10 @@ body {
 
     .wrapper {
          margin: 0;
-         padding: 0 20% 5em;
+         padding:  20% 15em;
 
          padding-top: 6em;
+         padding-bottom: 6em;
      }
 
      .footer {
@@ -247,7 +248,6 @@ table.block {
 
     th {
         text-align: left;
-        font-size: .9em;
         padding-left: 1em;
         line-height: 1.5em;
     }
@@ -259,8 +259,13 @@ table.block {
         line-height: 2em;
     }
 
+    tr.cost td {
+        font-size: 13em;
+    }
+
     tr:first-child  th{
-        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: 40px;
     }
 
     tr td:nth-child(1),
@@ -268,11 +273,11 @@ table.block {
     tr td:nth-child(3) {
         height: 76px;
         width:156px;
-        background: rgba(24, 23, 23, 0.49);
+        background: rgba(247, 244, 244, 0.014);
 
         @media (max-width: 1000px) {
             width: 76px;
-            font-size: .5em;
+            font-size: 1em;
             height: 76px;
         }
     }
@@ -304,6 +309,7 @@ hr.page-break {
 .logo {
     width: 100%;
     max-width: 650px;
+    margin-top: 3em;
 }
 .logo, .london {
 }
