@@ -14,7 +14,10 @@
         "title": "Tickets",
         "pageClass":"tickets"
     },
-
+    "sponsors-pack": {
+        "title": "Sponsors Pack",
+        "pageClass":"sponsors-pack"
+    },
     "contact": {
         "title": "Contact",
         "pageClass":"contact"
