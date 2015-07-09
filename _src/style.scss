@@ -13,6 +13,8 @@ body {
     background: #1A1818;
     background-image: url('./images/dark-stripes.png');
     background-image: url('http://www.transparenttextures.com/patterns/dark-stripes.png');
+    background-image: linear-gradient( top , rgba(26, 24, 24, 0.7)  1%, rgba(26, 24, 24, 0.3) 50%),
+    url('http://www.transparenttextures.com/patterns/dark-stripes.png');
     font-size: 1em;
 
     .wrapper {
@@ -262,6 +264,7 @@ table.block {
     tr:first-child  th{
         font-size: 1.1em;
         margin-bottom: 40px;
+        text-align: center;
     }
 
     tr td:nth-child(1),
@@ -269,7 +272,7 @@ table.block {
     tr td:nth-child(3) {
         height: 76px;
         width:156px;
-        background: rgba(247, 244, 244, 0.014);
+        //background: rgba(247, 244, 244, 0.014);
 
         @media (max-width: 1000px) {
             width: 76px;
@@ -297,7 +300,7 @@ hr.page-break {
 
 .split {
     display: inline;
-    margin: 0 10%;
+    margin: 3em 20% 3em 10%;
 }
 
 
@@ -308,11 +311,33 @@ hr.page-break {
 }
 .logo, .london {
 }
-@media print {
 
+img.middle {
+    width: 300px;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+img.split {
+    width: 200px;
+}
+@media print {
+    ul.speakers li  {
+        margin: 2em;
+    }
+    ul.speakers li .detail {
+        display: inline-block;
+        margin: 0em 2em ;
+    }
     img.logo {
         width: 400px;
-
+    }
+    img.split {
+        width: 100px;
+        height: 100px;
+    }
+    ul.speakers img.speaker {
+        width: 70px;
+        height: 70px;
     }
     hr {
         display: none;
@@ -320,7 +345,7 @@ hr.page-break {
     body {
         color: #222;
         letter-spacing: 1.1px;
-        line-height: 1.4em;
+        line-height: 1.6em;
         font-size: 0.9em;
 
     }
@@ -328,9 +353,7 @@ hr.page-break {
         margin:  1em 0;
     }
 
-    div.detail p.title {
-        font-size: 0.7em;
-    }
+
     h1 {
         margin: 2em 0;
     }
@@ -387,7 +410,7 @@ top: 10px;
 
 
 .block {
-    padding:0px 40px 28px 0px;
+    padding:0 0 2em 0;
     margin: 5em 0;
     line-height: 40px;
     p {
