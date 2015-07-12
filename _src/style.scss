@@ -15,7 +15,8 @@ body {
     margin: 0;
     padding: 0;
     background: #1A1818;
-    background-image: linear-gradient( top , rgba(26, 24, 24, 1)  1%, #211D1D 100%);
+    //background-image: linear-gradient( top , rgba(26,24,24,0.8) 10%, rgba(26,24,24,0.9) 50%,  #211D1D 100%);
+    background-image: linear-gradient( bottom ,  #211D1D 10%,  rgba(26,24,24,0.9) 50%,   rgba(26,24,24,0.8) 100%);
     //background-image: linear-gradient( top , green  1%, pink 50%);
     font-size: 1em;
 
