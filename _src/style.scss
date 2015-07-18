@@ -81,7 +81,7 @@ tr.top th{
 }
 
 nav {
-    margin: 6em 0;
+    margin: 4.5em 0;
     font-family: 'Kroppen Round';
     a {
         width: 100%;
@@ -173,7 +173,7 @@ container.trains {
 }
 
 form {
-  margin: 3em;
+  margin: 3em 0;
   #mce-EMAIL {
     width: 250px;
     border: 1px solid #eee;
@@ -183,7 +183,7 @@ form {
   }
 
   input, input[type="submit"]#mc-embedded-subscribe  {
-      margin: .2em .4em;
+      margin: 0 .2em .4em 0;
       padding: .8em;
       font-size: 1em;
       font-family: 'Kroppen Round';
@@ -430,7 +430,7 @@ top: 10px;
 
 .block {
     padding:0 0 2em 0;
-    margin: 5em 0;
+    margin: 3em 0;
     line-height: 40px;
     p {
         margin: 0;
