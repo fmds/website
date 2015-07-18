@@ -5,8 +5,8 @@
 
 
 
-$stripe1: rgba(26, 24, 24, .8);
-$stripe2:rgba(0, 0, 0, 0);
+$stripe1: rgba(26, 24, 24, .5);
+$stripe2: rgba(0, 0, 0, 0);
 body {
     color: #fff;
     font-family: 'Kroppen Round Light';
@@ -15,8 +15,8 @@ body {
     margin: 0;
     padding: 0;
     background: #1A1818;
-    //background-image: linear-gradient( top , rgba(26,24,24,0.8) 10%, rgba(26,24,24,0.9) 50%,  #211D1D 100%);
-    background-image: linear-gradient( bottom ,  #211D1D 10%,  rgba(26,24,24,0.9) 50%,   rgba(26,24,24,0.8) 100%);
+    background-image: linear-gradient( top , rgba(26,24,24,0.8) 10%, rgba(26,24,24,0.9) 50%,  #211D1D 100%);
+    //background-image: linear-gradient( bottom ,  #211D1D 10%,  rgba(26,24,24,0.9) 50%,   rgba(26,24,24,0.8) 100%);
     //background-image: linear-gradient( top , green  1%, pink 50%);
     font-size: 1em;
 
@@ -24,33 +24,34 @@ body {
 
     //    background-image: url('./images/dark-stripes.png');
     //    background-size: 10px 10px;
-//        background-image: url('http://www.transparenttextures.com/patterns/black-orchid.png');
+        background-image: url('http://www.transparenttextures.com/patterns/black-orchid.png');
 
-background: repeating-linear-gradient(
-  -45deg,
-  $stripe1,
-  $stripe1 10px,
-  $stripe2 10px,
-  $stripe2 20px
-);
-
+      background-image: repeating-linear-gradient(
+        -45deg,
+        $stripe1,
+        $stripe1 10px,
+        $stripe2 10px,
+        $stripe2 20px
+      );
+      background-position-Y: bottom;
 
          margin: 0;
-         padding:  20% 15em;
-
+         padding: 5em 20% 10em;
          padding-top: 6em;
          padding-bottom: 6em;
      }
 
      .footer {
          width: 100%;
-         background: #111;
          bottom: 0;
          position: relative;
-         border-top: 1px solid #000;
+         background-color: #1D1A1A;
+         border-top: 1px solid #221E1E;
          padding: 5em 20% 10em;
          margin-top: 10em;
          margin: 0;
+
+         background-position-Y: top;
 //         background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/London_-_The_Royal_Society_of_Arts.jpg');
 
      }
