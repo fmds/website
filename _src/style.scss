@@ -5,7 +5,7 @@
 
 
 
-$stripe1: rgba(26, 24, 24, .5);
+$stripe1: rgba(26, 24, 24, .8);
 $stripe2: rgba(0, 0, 0, 0);
 body {
     color: #fff;
@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     background: #1A1818;
-    background-image: linear-gradient( top , rgba(26,24,24,0.8) 10%, rgba(26,24,24,0.9) 50%,  #211D1D 100%);
+    background-image: linear-gradient( top , rgba(26,24,24,0.9) 50%, rgba(0, 0, 0, 0.78) 100%);
     //background-image: linear-gradient( bottom ,  #211D1D 10%,  rgba(26,24,24,0.9) 50%,   rgba(26,24,24,0.8) 100%);
     //background-image: linear-gradient( top , green  1%, pink 50%);
     font-size: 1em;
@@ -43,7 +43,7 @@ body {
          width: 100%;
          bottom: 0;
          position: relative;
-         border-top: 1px solid #221E1E;
+         border-top: 1px solid #0A0A0A;
          padding: 2em 20% 2em;
          margin-top: 10em;
          margin: 0;
