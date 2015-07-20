@@ -8,8 +8,8 @@
 $stripe1: rgba(26, 24, 24, .8);
 $stripe2: rgba(0, 0, 0, 0);
 body {
-  background-color: #fff;
-  color: #222;
+    background-color: #fff;
+    color: #6F6B6B;
     line-height: 2.5em;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ body {
          margin-top: 10em;
          margin: 0;
 
-         background-color: #F4F4FA;
+         background-color: #FDFDFD;
          background-position-Y: top;
 //         background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/London_-_The_Royal_Society_of_Arts.jpg');
 
@@ -62,7 +62,7 @@ tr.top th{
 }
 
 nav {
-    margin: 4.5em 0;
+    margin: 3em 0;
     font-family: 'Kroppen Round';
     a {
         width: 100%;
@@ -264,6 +264,7 @@ table.block {
         text-align: center;
         font-size: 1.7em;
         line-height: 2em;
+
     }
 
 
@@ -290,6 +291,11 @@ table.block {
     tr:last-child {
         margin-bottom: 10px;
     }
+
+    tr td.tick {
+      font-size: 0.3em ;
+    }
+
 }
 
 
@@ -418,7 +424,7 @@ top: 10px;
 
 .block {
     padding:0 0 2em 0;
-    margin: 3em 0;
+    margin: 0;
     line-height: 40px;
     p {
         margin: 0;
@@ -443,7 +449,7 @@ ul.topics {
     margin:3em 10px 15px 52px;
     li {
         height: 24px;
-      padding: 28px 10px;
+      padding: 10px 10px;
     }
 }
 
