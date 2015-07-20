@@ -73,7 +73,7 @@ nav {
         text-decoration: none;
         border-radius: 3px;
         &:hover {
-            font-weight: bold;
+          color: #BA3755;
         }
         @media (min-width: 600px) {
             display: inline;
@@ -86,7 +86,6 @@ nav {
 .about nav .about,
 .venue nav .venue,
 .tickets nav .tickets {
-    font-size: 1.1em;
     color: #DDA625;
 }
 
@@ -356,17 +355,12 @@ img.split {
         display: none;
     }
     body {
-        color: #222;
-        letter-spacing: 1.1px;
         line-height: 1.6em;
-        font-size: 0.9em;
-
+        font-size: 0.95em;
     }
     p {
         margin:  1em 0;
     }
-
-
     h1 {
         margin: 2em 0;
     }
@@ -377,10 +371,6 @@ img.split {
         display: none;
     }
     .page-break {page-break-after: always !important;}
-
-    body {
-        font-family: 'Kroppen Round Light';
-    }
 
     .wrapper {
         margin: 1em 15%;
