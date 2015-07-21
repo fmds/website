@@ -211,11 +211,13 @@ ul.speakers {
 
         .detail {
             display: block;
-            margin: 20px 0;
+            margin: 5px 0;
             padding: 0;
+            top: -10px;
+            position: relative;
 
             @media (min-width: 600px) {
-                margin: 0 39px;
+                margin: 0 20px;
                 display: inline-block;
 
             }
@@ -229,7 +231,7 @@ ul.speakers {
                 margin-top: 1px;
             }
             p {
-               margin: .3em 0;
+               margin: 0;
                font-size: .8em;
             }
         }
@@ -292,7 +294,10 @@ table.block {
     }
 
     tr td.tick {
-      font-size: 0.3em ;
+      font-size: 0.4em ;
+      @media (min-width: 900px) {
+        font-size: .7em ;
+      }
     }
 
 }
