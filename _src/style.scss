@@ -1,4 +1,4 @@
-@font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
+;@font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
 @font-face {font-family: 'KroppenRound-LightOblique';src: url('./fonts/2E7DBB_1_0.eot');src: url('./fonts/2E7DBB_1_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_1_0.woff2') format('woff2'),url('/fonts/2E7DBB_1_0.woff') format('woff'),url('/fonts/2E7DBB_1_0.ttf') format('truetype');}
 @font-face {font-family: 'Kroppen Round';src: url('./fonts/2E7DBB_2_0.eot');src: url('./fonts/2E7DBB_2_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_2_0.woff2') format('woff2'),url('./fonts/2E7DBB_2_0.woff') format('woff'),url('./fonts/2E7DBB_2_0.ttf') format('truetype');}
 @font-face {font-family: 'Kroppen Round Light';src: url('./fonts/2E7DBB_3_0.eot');src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_3_0.woff2') format('woff2'),url('./fonts/2E7DBB_3_0.woff') format('woff'),url('./fonts/2E7DBB_3_0.ttf') format('truetype');}
@@ -30,7 +30,7 @@ body {
          margin-top: 10em;
          margin: 0;
 
-         background-color: #F9F9FA;
+         background-color: #FDFDFD;
          background-position-Y: top;
 //         background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/London_-_The_Royal_Society_of_Arts.jpg');
 
@@ -258,6 +258,7 @@ table.block {
         text-align: left;
         padding-left: 1em;
         line-height: 1.5em;
+        border-bottom: 1px solid #eee;
     }
 
 
@@ -291,8 +292,20 @@ table.block {
         margin-bottom: 10px;
     }
 
+    tr.top th {
+      border-bottom: 0;
+    }
+
+    tr.cost td {
+        border-bottom: 1px solid #eee;
+    }
+
     tr td.tick {
       font-size: 0.4em ;
+      background: #FDFDFD;
+      border-bottom: 1px solid #eee;
+      border-left: 10px solid #fff;
+      border-right: 10px solid #fff;
       @media (min-width: 900px) {
         font-size: .7em ;
       }
