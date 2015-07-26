@@ -349,11 +349,11 @@ img.split {
 }
 @media print {
     ul.speakers li  {
-        margin: 2em;
+        margin:  2em;
     }
     ul.speakers li .detail {
         display: inline-block;
-        margin: 0em 2em ;
+        margin: 0 2em  ;
     }
     img.logo {
         width: 400px;
@@ -364,6 +364,8 @@ img.split {
     }
     ul.speakers img.speaker {
         width: 70px;
+        position: relative;
+        top: -10px;
         height: 70px;
     }
     hr {
@@ -525,7 +527,8 @@ div.flex .container.trains {
 div.quote {
     margin: 3em 0em;
     padding: 1em;
-    background: rgba(0, 0, 0, .1);
+    border: 1px solid #eee;
+    background-color: #fdfdfd;
 }
 
 //
