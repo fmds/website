@@ -1,0 +1,150 @@
+{
+
+    "about": {
+        "title": "About",
+        "pageClass":"about"
+    },
+
+    "venue": {
+        "title": "Venue",
+        "pageClass":"venue"
+    },
+
+    "tickets": {
+        "title": "Tickets",
+        "pageClass":"tickets"
+    },
+    "sponsors-pack": {
+        "title": "Sponsors Pack",
+        "pageClass":"sponsors-pack"
+    },
+    "contact": {
+        "title": "Contact",
+        "pageClass":"contact"
+    },
+
+
+    "sponsors": {
+        "title": "Sponsorship",
+        "pageClass":"sponsors"
+    },
+    "speakers": {
+        "pageClass":"speakers",
+        "title": "Speakers",
+        "heading": "Speakers",
+        "schedule": [
+            {
+                "time": "9:30 am",
+                "title": "Talk 1 - Context",
+                "type": "talk",
+                "desc":"A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.A brief look into history. Some context.... ",
+                "speakers": []
+            },
+            {
+                "time": "9:50 am",
+                "title": "Talk 2 - Context",
+                "type": "talk",
+                "desc":"A brief look into history. Some context....",
+                "speakers": []
+            },
+            {
+                "time": "10:10 am",
+                "title": "Talk 3 - Context",
+                "type": "talk",
+                "desc":"A brief look into history. Some context.... ",
+                "speakers": []
+            },
+
+            {
+                "time": "10:30 am",
+                "title": "QA led by Jeremy Keith",
+                "type": "qa",
+                "speakers": []
+            },
+
+            {
+                "time": "11 am",
+                "title": "Break",
+                "type": "break",
+                "speakers": ["jeremykeith"]
+            },
+            {
+                "time": "11:30 am",
+                "title": "Talk 4 - How",
+                "type": "talk",
+                "speakers": ["ForbesLindesay"]
+            },
+            {
+                "time": "11:50 am",
+                "title": "Talk 4 - How",
+                "type": "talk",
+                "speakers": []
+            },
+            {
+                "time": "12:10 am",
+                "title": "Talk 5 - How",
+                "type": "talk",
+                "speakers": []
+            },
+            {
+                "time": "12:30 am",
+                "title": "QA led by Jeremy Keith",
+                "type": "qa",
+                "speakers": []
+            },
+            {
+                "time": "1pm",
+                "title": "Lunch",
+                "type": "break"
+            },
+            {
+                "time": "2:30",
+                "title": "Echo chamber's gonna echo",
+                "speakers": ["philhawksworth", "bruised_blood"],
+                "type": "debate"
+            },
+            {
+                "time": "3:00 pm",
+                "title": "QA led by Jeremy Keith",
+                "type": "qa",
+                "speakers": ["jeremykeith"]
+            },
+            {
+                "time": "03:15 pm",
+                "title": "Break",
+                "type": "break"
+            },
+            {
+                "time": "03:30 pm",
+                "title": "Talk 7 - Future - Web Components",
+                "type": "talk",
+                "desc": "A talk about web components.",
+                "speakers": []
+            },
+            {
+                "time": "03.50 pm",
+                "title": "talk 8 - Future - Service Workers",
+                "type": "talk",
+                "speakers": []
+            },
+            {
+                "time": "04:10 pm",
+                "title": "QA led by Jeremy Keith",
+                "type": "qa",
+                "speakers": []
+            },
+            {
+                "time": "04:25 pm",
+                "title": "Closing keynote",
+                "type": "talk",
+                "speakers": []
+            },
+            {
+                "time": "05:00 pm",
+                "title": "After Event?",
+                "type": "party"
+            }
+        ]
+    }
+
+}

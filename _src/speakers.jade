@@ -1,0 +1,37 @@
+.content
+    ul.speakers
+        li.speaker
+            img(src='./images/speakers/philhawksworth.jpg', alt="Phil Hawksworth").speaker
+            
+            div.detail
+                h3 Phil Hawksworth 
+                p.title Echo Chambers gonna Echo
+        li.speaker
+            img(src='./images/speakers/forbeslindesay.jpg', alt="Forbes Lindesay").speaker
+            div.detail
+                h3 Forbes Lindesay
+                p.title Reacting to Jade
+
+        li.speaker
+            img(src='./images/speakers/adictio.png', alt="Jeremy Keith").speaker
+            div.detail
+                h3 Jeremy Keith
+                p.title Jeremy will be running Q&amp;A.
+                                
+        //- for item in schedule
+        //-     li.speaker(class=item.type)
+        //-             //div.time=item.time
+        //-             img(src='').speaker
+        //-             .detail
+        //-                 h4.title=item.title
+        //-                 p=item.desc
+        //-                 if item.speakers
+        //-                     each speak in item.speakers
+        //-                         - console.log(speak);
+        //-                         - speaker = allSpeakers[speak]
+        //-                     //- if(speaker)
+        //-                     //-     console.log(speak, allSpeakers) ;
+        //-                     //-     != partial("_speaker", speaker)
+
+
+    p.block.block-nm We will be announcing new speakers in the coming weeks and months. Got someone who needs to be on the list? Get in <a href="./contact.html">contact</a>.
