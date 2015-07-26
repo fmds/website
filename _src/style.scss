@@ -23,7 +23,6 @@ body {
      }
 
      .footer {
-         width: 100%;
          bottom: 0;
          position: relative;
          padding: 2em 20% 2em;
@@ -258,7 +257,7 @@ table.block {
         text-align: left;
         padding-left: 1em;
         line-height: 1.5em;
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #FBF8F8;
     }
 
 
@@ -297,13 +296,13 @@ table.block {
     }
 
     tr.cost td {
-        border-bottom: 1px solid #eee;
+        border-bottom: 1px solid #FBF8F8;
     }
 
     tr td.tick {
       font-size: 0.4em ;
       background: #FDFDFD;
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid #FBF8F8;
       border-left: 10px solid #fff;
       border-right: 10px solid #fff;
       @media (min-width: 900px) {
