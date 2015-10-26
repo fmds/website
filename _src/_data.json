@@ -5,6 +5,11 @@
         "pageClass":"about"
     },
 
+    "cfp": {
+        "title": "Call For Speakers",
+        "pageClass":"cfp"
+    },
+
     "venue": {
         "title": "Venue",
         "pageClass":"venue"
