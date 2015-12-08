@@ -14,8 +14,6 @@ body {
     font-size: 1.2em;
     font-family: 'Lato', sans-serif;
     .wrapper {
-
-
          margin: 0;
          padding: 2em 20% 2em;
      }
@@ -80,6 +78,7 @@ nav {
 
 .speakers nav .speakers,
 .sponsors nav .sponsor,
+.cfp nav .cfp,
 .about nav .about,
 .venue nav .venue,
 .tickets nav .tickets {
@@ -265,6 +264,9 @@ table.block {
         line-height: 2em;
 
     }
+    td.disabled, th.disabled {
+        opacity: 0.2;
+    }
 
     tr:first-child  th{
         font-size: 1.1em;
@@ -310,11 +312,14 @@ table.block {
 
 }
 
+ul.sponsors {
+    width: 100%;
+}
 
-
-
-
-
+ul.sponsors li {
+    width: 100%;
+    list-style: none;
+}
 
 
 hr.page-break {
