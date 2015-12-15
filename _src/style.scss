@@ -209,7 +209,7 @@ ul.speakers {
 
     position: relative;
     @media (min-width: 600px) {
-        margin-left: 79px;
+        margin-left: 1em;
     }
 
     li {
@@ -224,7 +224,7 @@ ul.speakers {
             position: relative;
 
             @media (min-width: 600px) {
-                margin: 0 20px;
+                margin: 0 0 0 10px;
                 display: inline-block;
 
             }
