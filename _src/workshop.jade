@@ -1,11 +1,8 @@
-
 img(src='./images/speakers/aaron-gustafson.jpg', alt="Aaron Gustafson").workshop
 h1 Planning Adaptive Interfaces Workshop
 
-
 h3.clearleft with 
     a(href="https://twitter.com/AaronGustafson") Aaron Gustafson
-
 
 p How do you plan for the unknown? The answer is obvious—you can’t—but that’s not a bad thing. Unknowns can be scary, but they also create opportunity.
 
@@ -25,6 +22,21 @@ ul
     li solid strategies for determining how common UI components can be re-imagined in an adaptive fashion; and
     li a practical knowledge of how HTML, CSS, and JavaScript can be deployed in the service of adaptive user interfaces.
 
-a(href="https://ti.to/enhanceconf/london-2016") Get your ticket now!
+h2 Tickets
 
+div#getTicket
+    a#ticket(href="https://ti.to/enhanceconf/london-2016") Get your ticket now!
+
+
+h2 Venue 
+
+
+script.
+    var ticketsWidget = document.createElement('tito-widget');
+    ticketsWidget.setAttribute('event', 'enhanceconf/london-2016');
+    ticketsWidget.setAttribute('releases', 'tkedxwcvfuu,4-1sr6rlwam');
+    var holder = document.getElementById('getTicket');
+    var ticket = document.getElementById('ticket');
+    holder.replaceChild(ticketsWidget, ticket);
+    
 hr

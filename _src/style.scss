@@ -151,8 +151,13 @@ container.trains {
     font-weight: bold;
     cursor: default;
 }
+html body .tito-wrapper {
+    background-color: #FDFDFD;
+    color: #6F6B6B;
+    border: 0;
+}
 
-form {
+.footer form {
   margin: 3em 0;
   #mce-EMAIL {
     width: 250px;
