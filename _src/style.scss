@@ -61,7 +61,7 @@ h1 {
 }
 
 nav {
-    margin: 5em 0;
+    margin: 3em 0;
     font-family: 'Kroppen Round';
     a {
         width: 100%;
@@ -79,16 +79,6 @@ nav {
         }
     }
 }
-
-.speakers nav .speakers,
-.sponsors nav .sponsor,
-.cfp nav .cfp,
-.about nav .about,
-.venue nav .venue,
-.tickets nav .tickets {
-    color: #DDA625;
-}
-
 
 
 hr {
@@ -144,10 +134,17 @@ container.trains {
 
 
 /* hack to make current nav item selected  - should use .active */
-.about nav a.about,
-.tickets nav a.tickets,
-.speakers nav a.speakers,
-.sponsors nav a.sponsor {
+
+.speakers nav .speakers,
+.sponsors nav .sponsor,
+.cfp nav .cfp,
+.about nav .about,
+.venue nav .venue,
+.workshop nav .workshop,
+
+.tickets nav .tickets {
+        color: #DDA625;
+
     font-weight: bold;
     cursor: default;
 }
@@ -218,7 +215,7 @@ ul.speakers {
     }
 
     li {
-        margin:73px 0;
+        margin:2em 0;
         padding: 0;
 
         .detail {
@@ -354,10 +351,9 @@ hr.page-break {
 .logo {
     width: 100%;
     max-width: 650px;
-    margin-top: 3em;
 }
 .london {
-  margin: 3em 0;
+  margin: 1em 0;
 }
 
 img.middle {
@@ -451,7 +447,7 @@ top: 10px;
 
 .block {
     padding:0 0 2em 0;
-    margin: 2em 0 ;
+    margin: 0 0 ;
     p {
         margin: 0;
         position: relative;

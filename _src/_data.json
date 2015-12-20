@@ -4,6 +4,10 @@
         "title": "About",
         "pageClass":"about"
     },
+    "workshop": {
+        "title": "Workshop",
+        "pageClass":"workshop"
+    },
 
     "cfp": {
         "title": "Call For Speakers",
