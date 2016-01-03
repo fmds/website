@@ -1,4 +1,4 @@
-;@font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
+@font-face {font-family: 'KroppenRound-RegularOblique';src: url('./fonts/2E7DBB_0_0.eot');src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_0_0.woff2') format('woff2'),url('./fonts/2E7DBB_0_0.woff') format('woff'),url('./fonts/2E7DBB_0_0.ttf') format('truetype');}
 @font-face {font-family: 'KroppenRound-LightOblique';src: url('./fonts/2E7DBB_1_0.eot');src: url('./fonts/2E7DBB_1_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_1_0.woff2') format('woff2'),url('/fonts/2E7DBB_1_0.woff') format('woff'),url('/fonts/2E7DBB_1_0.ttf') format('truetype');}
 @font-face {font-family: 'Kroppen Round';src: url('./fonts/2E7DBB_2_0.eot');src: url('./fonts/2E7DBB_2_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_2_0.woff2') format('woff2'),url('./fonts/2E7DBB_2_0.woff') format('woff'),url('./fonts/2E7DBB_2_0.ttf') format('truetype');}
 @font-face {font-family: 'Kroppen Round Light';src: url('./fonts/2E7DBB_3_0.eot');src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_3_0.woff2') format('woff2'),url('./fonts/2E7DBB_3_0.woff') format('woff'),url('./fonts/2E7DBB_3_0.ttf') format('truetype');}
@@ -352,8 +352,13 @@ hr.page-break {
     width: 100%;
     max-width: 650px;
 }
-.london {
-  margin: 1em 0;
+
+.wrapper .date,
+.wrapper  .london {
+  margin: .3em 0;
+  font-size: 1em;
+  font-family: 'Kroppen Round';
+  color: #111;
 }
 
 img.middle {
@@ -438,12 +443,8 @@ top: 10px;
     .smm-pic {
         float: left;
             margin: 0 20px 20px 0;
-
-
     }
 }
-
-
 
 .block {
     padding:0 0 2em 0;
