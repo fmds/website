@@ -4,15 +4,3 @@ p.block EnhanceConf will cover the state of the art in <a href="http://en.wikipe
 
 h1 Speakers
 include ./speakers.jade
-
-h1 Tickets   
-div#getTicket
-    a#ticket(href="https://ti.to/enhanceconf/london-2016") Get your ticket now!
-
-script.
-    var ticketsWidget = document.createElement('tito-widget');
-    ticketsWidget.setAttribute('event', 'enhanceconf/london-2016');
-    var holder = document.getElementById('getTicket');
-    var heading = document.createElement('h1');
-    var ticket = document.getElementById('ticket');
-    holder.replaceChild(ticketsWidget, ticket);
