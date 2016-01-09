@@ -49,13 +49,28 @@ body {
 
 }
 
+.sponsors.gold img{
+    width:300px;
+}
+.sponsors.silver img{
+    width:200px;
+}
+.sponsors.bronze img{
+    width:100px;
+}
 
-h1, h2, h3, h4,
+ul.workshop li {
+    margin: 2em 0;
+}
+h1, h2, h3, h4
 tr.top th{
     color: rgb(242, 25, 92);
     font-family: 'Kroppen Round';
 }
 
+h4 {
+    color: #8EB236;
+}
 h1 {
     margin: 1.4em 0;
 }
@@ -142,7 +157,7 @@ container.trains {
 .about nav .about,
 .venue nav .venue,
 .workshop nav .workshop,
-
+.contact nav .contact,
 .tickets nav .tickets {
         color: #DDA625;
 
@@ -254,14 +269,14 @@ ul.speakers {
             }
         }
     }
-    img.speaker {
-        background: rgb(92, 90, 90);
-        width: 77px;
-        height: 77px;
-        vertical-align: top;
-    }
-}
 
+}
+img.speaker {
+    background: rgb(92, 90, 90);
+    width: 77px;
+    height: 77px;
+    vertical-align: top;
+}
 
 
 /** Sponsors page **/

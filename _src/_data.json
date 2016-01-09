@@ -32,6 +32,10 @@
         "pageClass":"contact"
     },
 
+    "index": {
+        "title": "London 2016",
+        "pageClass":"home"
+    },
 
     "sponsors": {
         "title": "Sponsorship",
