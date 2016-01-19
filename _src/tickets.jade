@@ -1,15 +1,17 @@
 
-include _awd.jade
 
-
-hr
 
 div#getTicket
     a#ticket(href="https://ti.to/enhanceconf/london-2016") Get your ticket now!
 
+    
+hr
 
     
 
+include _awd.jade
+
+hr
 
 
 h2 Additional Info
@@ -21,8 +23,8 @@ ul
         a(href='/terms.html') Terms of Service
     li
         a(href='http://ti.to') Powered by Tito
+        
 
-h2
 script.
     var ticketsWidget = document.createElement('tito-widget');
     ticketsWidget.setAttribute('event', 'enhanceconf/london-2016');
