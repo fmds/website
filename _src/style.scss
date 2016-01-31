@@ -19,17 +19,77 @@ body {
      }
 
      .footer {
+         background-color: #fff;
          bottom: 0;
          position: relative;
-         padding: 2em 20% 2em;
+         padding: 0 20%;
          margin-top: 10em;
          margin: 0;
 
-         background-color: #FDFDFD;
          background-position-Y: top;
 //         background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3c/London_-_The_Royal_Society_of_Arts.jpg');
 
      }
+}
+.faces  {
+    padding: 0;
+    display:  flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+.faces li {
+    padding: 2%;
+ flex-grow: 1;
+  flex-basis: 16%;
+  text-align:left;
+
+
+    margin: .5em 0  .5em 0 ;
+    min-width: 140px;
+    		flex: 1 20%;
+
+    @media (min-width: 520px) {
+        min-width: 270px;
+
+        &.hero {
+    		flex: 2 50%;
+            width: auto;
+            img {
+
+                border-radius: .5em;
+                height: auto;
+
+                width: 30%;
+                text-align: left;
+
+            }
+            .detail {
+
+                width: 50%;
+                    height: 44px;
+                    padding: 0 .5em;
+                    line-height: 80px;
+                    display: inline;
+                    vertical-align: top;
+
+            }
+        }
+    }
+    .detail {
+        display: none;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.home .speakers .break,
+.home .speakers .qa,
+.home .speakers .detail,
+.home .speakers .time {
+    display: none;
 }
 
 div.awd {
@@ -51,24 +111,37 @@ html body span.tito-badge-link {
         .wrapper {
             padding: 2em;
         }
+        .dotjs {
+            padding: 2em;
+        }
         .footer {
-            padding: 2em 2em 10em;
+            padding: 2em;
         }
     }
-
-
 }
 
 .sponsors.gold img{
-    width:300px;
+    width:80%;
+    max-width: 300px;
 }
-.sponsors.silver img{
+.sponsors.silver img,
+.sponsors.video img {
     width:200px;
 }
 .sponsors.bronze img{
     width:100px;
 }
-.sponsors.community li{
+
+.sponsors {
+    background: #fff;
+    vertical-align: center;
+    display: inline-flex;
+    flex-direction: row;
+    @media (max-width: 600px) {
+        flex-wrap:wrap;
+    }
+}
+.sponsors li{
     min-height: 70px;
 }
 .sponsors.community img{
@@ -87,6 +160,7 @@ tr.top th{
 
 h4 {
     color: #8EB236;
+    font-family: 'Kroppen Round';
 }
 h1 {
     margin: 1.4em 0;
@@ -186,12 +260,14 @@ html body .tito-wrapper {
     color: #6F6B6B;
     border: 0;
 }
-
-.footer form {
+ form {
   margin: 3em 0;
   #mce-EMAIL {
     width: 250px;
     border: 2px solid #5879B6;
+  }
+  #mce-EMAIL {
+      background: #fff;
   }
 
   input {
@@ -201,19 +277,17 @@ html body .tito-wrapper {
     font-family: 'Kroppen Round';
     border:2px solid #5879B6;
     border-radius: 2px;
-
+    background: #fff;
   }
   input[type="submit"]#mc-embedded-subscribe {
     background: #5879B6;
     color: #fff !important;
-
   }
 
   input[type="submit"]#mc-embedded-subscribe  {
       color: #222;
   }
 }
-
 
 div.detail p{
     font-size: 20px;
@@ -222,14 +296,12 @@ div.detail p{
 .content iframe {
     width:100%;
     height: 12em;
-
 }
 .content img,
 .content iframe {
     border-radius: 4px;
     border: 0px solid #333 !important;
     overflow: hidden;
-
 }
 
 img.workshop {
@@ -245,20 +317,65 @@ ul.speakers {
     margin: 0;
     padding: 0;
     margin-top: 5em;
-
-    position: relative;
-    @media (min-width: 600px) {
-        margin-left: 1em;
+    @media (min-width: 900px) {
+        left: -70px;
+        position: relative;
     }
 
     li {
-        margin:2em 0;
         padding: 0;
+        display: flex;
+        &.speaker {
+            &.top {
+                .detail, img, .time {
+                    margin-top: 10px;
+                }
+            }
+            .time {
+            }
+        }
+        &.break, &.qa {
+            background: #fff;
+            padding-left: -1px;
 
+        }
+
+        &.break {
+            .time {
+                margin: 1em 0;
+            }
+        }
+        flex-direction: column;
+        @media (min-width: 400px) {
+            flex-direction: row;
+        }
+
+
+        .time {
+            font-family: 'Kroppen Round';
+            background: #fff;
+            color: #6F6B6B;
+            display: block;
+            width: 100%;
+            border-bottom: 1px solid #8EB236;
+            padding: 1em 0;
+            @media (min-width: 400px) {
+                width: 62px;
+                min-width: 62px;
+                border-bottom: 0;
+                border-bottom: 0;
+                margin: 0;
+                border-bottom: 0;
+                padding: 0;
+            }
+        }
+        .position {
+            font-size: 0.8em;
+        }
         .detail {
             display: block;
             margin: 5px 0;
-            padding: 0;
+            padding: 0 10px ;
             top: -10px;
             position: relative;
 
@@ -275,7 +392,6 @@ ul.speakers {
             }
             img  {
                 display: inline-block;
-                margin-top: 1px;
             }
             p {
                margin: 0;
@@ -284,18 +400,44 @@ ul.speakers {
         }
 
         &.last {
-            border-bottom: 2px solid #eee;
+            border-bottom: 1px solid #efefef;
             margin-bottom: 1em;
             padding-bottom: 1em;
         }
     }
 
 }
+
+li.break p,
+li.qa p  {
+    background: #BA3755;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0;
+    padding: 0 .5em;
+    width: 100%;
+    margin: 1em 0;
+
+    img {
+        float: right;
+        position: relative;
+        width: 45px;
+        height: 45px;
+        top: 0px;
+        left: 5px;
+        MARGIN: 3px 0;
+    }
+}
+
+li.qa p  {
+    margin: 0;
+    border-top-right-radius: 0;
+    background: #5B7CBC;
+}
+
 img.speaker {
-    background: rgb(92, 90, 90);
-    width: 77px;
-    height: 77px;
-    vertical-align: top;
+    width: 55px;
+    height: 55px;
 }
 
 
@@ -378,6 +520,9 @@ ul.sponsors {
 ul.sponsors li {
     width: 100%;
     list-style: none;
+    a {
+        display: block;
+    }
 }
 
 
@@ -594,41 +739,32 @@ div.quote {
     background-color: #fdfdfd;
 }
 
-//
-// /* Tickets page */
-// .item {
-//     border: 1px solid #222;
-//     border-radius: 5px;
-//     margin: 1em 25%;
-//     height: 12em;
-//     padding: 0;
-//     vertical-align: top;
-//     width: 40%;
-//     display: inline-block;
-//     position: relative;
-//     background: rgb(221, 166, 37);
-//     border: 2px solid #333;
-//
-//     p.detail {
-//         vertical-align: top;
-//     }
-//     p.buy {
-//         position: absolute;
-//         border-bottom-left-radius: 5px;
-//         border-bottom-right-radius: 5px;
-//         bottom: 0;
-//         padding: .6em 0;
-//         margin: 0;
-//         background: #eee;
-//         width: 100%;
-//         text-align: center;
-//     }
-//     .price {
-//         font-size:4em;
-//         font-weight: bold;
-//         margin: 1em 0 0 0;
-//         padding: 0;
-//         text-align:center;
-//     }
-//
-// }
+.dotjs {
+
+    margin: 0;
+    padding: 2em 20% 2em;
+    background-color: #F5F1F1;
+    border-top: 1px solid #ddd;
+    color: #362718;
+    width: 100%;
+    font-family: 'Kroppen Round';
+
+    img {
+        padding:  2em;
+        width: 80%;
+        max-width:400px;
+    }
+}
+.dotjs , .email {
+    background-color: #F5F1F1;
+
+    border-top: 1px solid #ddd;
+}
+
+#mc_embed_signup {
+    width: 100%;
+    padding: 1em 20% ;
+    background-color: #F5F1F1;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
