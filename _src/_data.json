@@ -4,6 +4,10 @@
         "title": "About",
         "pageClass":"about"
     },
+    "schedule": {
+        "title": "Schedule",
+        "pageClass":"schedule"
+    },
     "workshop": {
         "title": "Workshop",
         "pageClass":"workshop"
