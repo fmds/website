@@ -1,0 +1,35 @@
+.sponsors.gold img{
+    width:80%;
+    max-width: 300px;
+}
+.sponsors.silver img,
+.sponsors.video img {
+    width:200px;
+}
+.sponsors.bronze img{
+    width:100px;
+}
+
+.sponsors.community img{
+    width:200px;
+}
+
+ul.sponsors {
+    width: 100%;
+    max-width: 200px;
+    background: #fff;
+    vertical-align: center;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    li {
+        list-style: none;
+        display: inline-block;
+        width:200px;
+        margin: .5em;
+        a {
+            display: block;
+        }
+    }
+
+}

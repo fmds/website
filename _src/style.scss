@@ -3,6 +3,9 @@
 @font-face {font-family: 'Kroppen Round';src: url('./fonts/2E7DBB_2_0.eot');src: url('./fonts/2E7DBB_2_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_2_0.woff2') format('woff2'),url('./fonts/2E7DBB_2_0.woff') format('woff'),url('./fonts/2E7DBB_2_0.ttf') format('truetype');}
 @font-face {font-family: 'Kroppen Round Light';src: url('./fonts/2E7DBB_3_0.eot');src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'),url('./fonts/2E7DBB_3_0.woff2') format('woff2'),url('./fonts/2E7DBB_3_0.woff') format('woff'),url('./fonts/2E7DBB_3_0.ttf') format('truetype');}
 
+@import './scss/sponsors';
+
+
 $stripe1: rgba(26, 24, 24, .8);
 $stripe2: rgba(0, 0, 0, 0);
 body {
@@ -115,34 +118,6 @@ html body span.tito-badge-link {
             padding: 2em;
         }
     }
-}
-
-.sponsors.gold img{
-    width:80%;
-    max-width: 300px;
-}
-.sponsors.silver img,
-.sponsors.video img {
-    width:200px;
-}
-.sponsors.bronze img{
-    width:100px;
-}
-
-.sponsors {
-    background: #fff;
-    vertical-align: center;
-    display: inline-flex;
-    flex-direction: row;
-    @media (max-width: 600px) {
-        flex-wrap:wrap;
-    }
-}
-.sponsors li{
-    min-height: 70px;
-}
-.sponsors.community img{
-    width:200px;
 }
 
 ul.workshop li {
@@ -440,8 +415,6 @@ img.speaker {
 
 
 
-/** Sponsors page **/
-
 table.block {
     width: 100%;
     position: relative;
@@ -510,17 +483,6 @@ table.block {
 
 }
 
-ul.sponsors {
-    width: 100%;
-}
-
-ul.sponsors li {
-    width: 100%;
-    list-style: none;
-    a {
-        display: block;
-    }
-}
 
 
 hr.page-break {
