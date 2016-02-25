@@ -691,8 +691,7 @@ div.quote {
     width: 100%;
     padding: 1em 20%;
     background-color: #F5F1F1;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd
+    border: 1px solid #ddd;
 }
 nav .active {
     color: #DDA625;
