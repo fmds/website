@@ -1,16 +1,19 @@
 {
-  "name": "enhanceconf",
-  "version": "3.0.0",
+  "name": "enhanceconf-website",
+  "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "spec.js",
+  "bin": {
+    "speclate": "generate.js"
+  },
   "scripts": {
-    "start": "harp server --port 9000",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "harp compile  ./_src  ./"
+    "start": "node ./bin/server.js",
+    "build": "node ./bin/generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "harp": "^0.15.2"
+  "devDependencies": {
+    "speclate": "^3.2.0"
   }
 }
