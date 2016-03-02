@@ -307,6 +307,10 @@ ul.speakers li.qa {
     background: #fff;
     padding-left: -1px
 }
+
+ul.speakers li.break a {
+    color: white;
+}
 ul.speakers li.break .time {
     margin: 1em 0
 }
