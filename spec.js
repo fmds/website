@@ -1,6 +1,11 @@
 module.exports = {
   "/index.html": {
       page: 'home',
+      spec: {
+          '#reviews': {
+              component: 'quotes'
+          }
+      }
   },
   "/tickets.html": {
     page: 'tickets',

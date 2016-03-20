@@ -705,81 +705,48 @@ nav .active {
     cursor: default;
 }
 
-blockquote {
-    width: 100%;
-    border-bottom: 1px  solid #eee;
-    padding: 1em 0 1.5em 0em;
-    margin: 0;
-}
+
 
 blockquote {
-  margin: 0;
-  padding: 0;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding-top: 0;
-  font-size: 0.9em;
+
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    display: block;
+    min-height: 130px;
 }
 
-blockquote  p {
-    display: inline-block;
+.author {
+    font-family: 'Kroppen Round';
 }
 
+.author a {
+    color: #8EB236;
+}
 
+blockquote:nth-child-last() {
+    border-bottom: none;
+}
 
 blockquote p {
-  color: #222;
+    top: 0;
+    padding: 0;
+    line-height: 1.5em;
 }
+
 blockquote img {
     width: 110px;
     border-radius: 1em;
+    float: left;
+    margin-right:  10px
 }
 
-
-
-
-
-blockquote.dwyl {
-    background: url(/images/dwyl.png);
-        background-color: #FAF5F6;
-
-    background-repeat: no-repeat;
-    padding-right: 150px;
-    background-size: 130px;
-    background-position: right;
+blockquote:nth-child(2n-1) img {
+    float: right;
+    margin-left: 10px
 }
 
-
-blockquote.ross {
-    background: url(/images/ross.jpg);
-    background-repeat: no-repeat;
-    padding-left: 150px;
-    background-size: 130px;
+blockquote:nth-child(2n-1) ,
+blockquote:nth-child(2n-1) .author {
+    text-align: right;
 }
 
-
-blockquote.ed {
-    background: url(/images/ed.jpeg);
-    background-repeat: no-repeat;
-    padding-left: 150px;
-    background-size: 130px;
-}
-
-blockquote.david {
-    background: url(/images/david.png);
-        background-color: #FAF5F6;
-
-    background-repeat: no-repeat;
-    padding-right: 150px;
-    background-size: 130px;
-    background-position: right;
-}
-
-
-blockquote.jeremy {
-    background: url(/images/jeremy.png);
-    background-repeat: no-repeat;
-    padding-right: 150px;
-    background-size: 130px;
-    background-position: right;
-    background-color: #FAF5F6;
-}
