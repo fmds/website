@@ -1,0 +1,8 @@
+{
+    "page": "tickets",
+    "selectors": {
+        ".tickets": {
+            "className": "active"
+        }
+    }
+}

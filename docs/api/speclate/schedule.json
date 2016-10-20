@@ -1,0 +1,8 @@
+{
+    "page": "schedule",
+    "selectors": {
+        ".schedule": {
+            "className": "active"
+        }
+    }
+}

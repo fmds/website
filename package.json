@@ -3,17 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "spec.js",
-  "bin": {
-    "speclate": "generate.js"
-  },
   "scripts": {
-    "start": "node ./bin/server.js",
-    "build": "node ./bin/generate.js",
+    "start": "speclate --debug 5006",
+    "build": "speclate --all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "speclate": "^3.2.0"
+    "speclate": "7.x.x"
   }
 }

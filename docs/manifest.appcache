@@ -1,0 +1,21 @@
+CACHE MANIFEST
+/
+/pages/layout.html
+/style/style.css
+
+/index.html
+/pages/home/home.html
+/api/speclate/index.json
+/components/quotes/quotes.html
+/contact.html
+/pages/contact/contact.html
+/api/speclate/contact.json
+/code-of-conduct.html
+/pages/code-of-conduct/code-of-conduct.html
+/api/speclate/code-of-conduct.json
+/terms.html
+/pages/terms/terms.html
+/api/speclate/terms.json
+# v-1476956865322
+NETWORK:
+*

@@ -7,42 +7,6 @@ module.exports = {
           }
       }
   },
-  "/tickets.html": {
-    page: 'tickets',
-    selectors: {
-        '.tickets': {
-            className: 'active'
-        }
-    }
-
-  },
-  "/schedule.html": {
-    page: 'schedule',
-       selectors: {
-          '.schedule': {
-              className: 'active'
-          }
-      }
-
-  },
-  "/workshop.html": {
-    page: 'workshop',
-     selectors: {
-          '.workshop': {
-              className: 'active'
-          }
-      }
-
-  },
-  "/venue.html": {
-    page: 'venue',
-        selectors: {
-        '.venue': {
-            className: 'active'
-        }
-    }
-
-  },
   "/contact.html": {
     page: 'contact',
           selectors: {
@@ -58,5 +22,8 @@ module.exports = {
     page: 'terms'
   },
 
-
+  options: {
+      outputDir: '/docs',
+      files: ['/style/style.css']
+  }
 }

@@ -1,0 +1,8 @@
+{
+    "page": "venue",
+    "selectors": {
+        ".venue": {
+            "className": "active"
+        }
+    }
+}
